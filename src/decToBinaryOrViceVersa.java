@@ -1,9 +1,8 @@
-import java.util.*;
+import java.util.Scanner;
 
 import static java.lang.Math.pow;
 
-public class Main {
-
+public class decToBinaryOrViceVersa {
   public static void decimalToBinary(int num ) {
     StringBuilder str = new StringBuilder();
     do{
@@ -42,14 +41,4 @@ public class Main {
       System.out.println("Invalid Input");
     }
   }
-
 }
-
-
-
-
-
-
-
-
-
