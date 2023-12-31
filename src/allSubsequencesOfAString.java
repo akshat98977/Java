@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class Main {
+public class allSubsequencesOfAString {
   public static void subsequences(String str, int idx , String newString) {
     if (idx == str.length()) {
       System.out.println(newString);
@@ -17,17 +15,8 @@ public class Main {
 
   public static void main (String args[]) {
     String str = "abc";
-    HashSet<String> set = new HashSet<>();
     subsequences(str, 0, "");
   }
 
 
 }
-
-
-
-
-
-
-
-

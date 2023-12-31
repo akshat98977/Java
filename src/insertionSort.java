@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class insertionSort {
-  public class Main {
     public static void printArray(int[] arr) {
-      for(int i = 0; i < arr.length; i++) {
+      for (int i = 0; i < arr.length; i++) {
         System.out.print(arr[i] + " ");
       }
     }
@@ -19,14 +18,15 @@ public class insertionSort {
       //Insertion Sort
       for (int i = 1; i < size; i++) {
         int current = numbers[i];
-        int j = i-1;
-        while(j >= 0 && current < numbers[j]) {
-          numbers[j+1] = numbers[j];
+        int j = i - 1;
+        while (j >= 0 && current < numbers[j]) {
+          numbers[j + 1] = numbers[j];
           j--;
         }
         //Placement
-        numbers[j+1] = current;
+        numbers[j + 1] = current;
       }
       printArray(numbers);
     }
+
 }
