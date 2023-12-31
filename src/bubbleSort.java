@@ -1,8 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
-import static java.lang.Math.pow;
-
-public class Main {
+public class bubbleSort {
   public static void printArray(int[] arr) {
     for(int i = 0; i < arr.length; i++) {
       System.out.print(arr[i] + " ");
@@ -17,27 +15,16 @@ public class Main {
       numbers[i] = sc.nextInt();
     }
     //Time Complexity = O(n^2)
-    //Insertion Sort
-    for (int i = 1; i < size; i++) {
-      int current = numbers[i];
-      int j = i-1;
-      while(j >= 0 && current < numbers[j]) {
-        numbers[j+1] = numbers[j];
-        j--;
+    //Bubble Sort
+    for(int i = 0; i < size-1; i++) {
+      for (int j = 0; j < size - 1 - i; j++) {
+        if (numbers[j] > numbers[j + 1]) {
+          int temp = numbers[j + 1];
+          numbers[j + 1] = numbers[j];
+          numbers[j] = temp;
+        }
       }
-      //Placement
-      numbers[j+1] = current;
     }
     printArray(numbers);
   }
-
 }
-
-
-
-
-
-
-
-
-

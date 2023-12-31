@@ -1,8 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
-import static java.lang.Math.pow;
-
-public class Main {
+public class selectionSort {
   public static void printArray(int[] arr) {
     for(int i = 0; i < arr.length; i++) {
       System.out.print(arr[i] + " ");
@@ -17,27 +15,18 @@ public class Main {
       numbers[i] = sc.nextInt();
     }
     //Time Complexity = O(n^2)
-    //Insertion Sort
-    for (int i = 1; i < size; i++) {
-      int current = numbers[i];
-      int j = i-1;
-      while(j >= 0 && current < numbers[j]) {
-        numbers[j+1] = numbers[j];
-        j--;
+    //Selection sort
+    for(int i = 0; i < size-1; i++) {
+      int small = i;
+      for (int j = i + 1; j < size; j++) {
+        if (numbers[small] > numbers[j]) {
+          small = j;
+        }
       }
-      //Placement
-      numbers[j+1] = current;
+      int temp = numbers[small];
+      numbers[small] = numbers[i];
+      numbers[i] = temp;
     }
     printArray(numbers);
   }
-
 }
-
-
-
-
-
-
-
-
-
