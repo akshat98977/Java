@@ -34,5 +34,6 @@ public class calculator {
             default :
                 System.out.println("Invalid Query");
         }
+        sc.close();
     }
 }

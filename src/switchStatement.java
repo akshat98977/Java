@@ -14,5 +14,6 @@ public class switchStatement {
                 break;
             default : System.out.println("Invalid Button");
         }
+        sc.close();
     }
 }

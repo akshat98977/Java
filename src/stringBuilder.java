@@ -19,5 +19,6 @@ public class stringBuilder {
 
     sb.append("hello");
     System.out.println(sb);
+    sc.close();
   }
 }

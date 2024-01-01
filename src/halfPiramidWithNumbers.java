@@ -4,7 +4,7 @@ public class halfPiramidWithNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = 5;
-        int m = 5;
+        
         //outer loop
         for (int i = 1; i <= n; i++) {
             //Inner Loop
@@ -13,5 +13,6 @@ public class halfPiramidWithNumbers {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

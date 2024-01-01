@@ -27,6 +27,7 @@ public class insertionSort {
         numbers[j + 1] = current;
       }
       printArray(numbers);
+      sc.close();
     }
 
 }

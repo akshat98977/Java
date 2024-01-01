@@ -10,6 +10,6 @@ public class areaOfCircle  {
         float circum = 2 * PI * radius;
         System.out.println(area);
         System.out.println(circum);
-
+        sc.close();
     }
 }

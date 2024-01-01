@@ -9,5 +9,6 @@ public class evenNumTillN {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

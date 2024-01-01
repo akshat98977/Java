@@ -14,6 +14,7 @@ public class ifElseif {
         } else {
             System.out.println("Invalid Button");
         }
+        sc.close();
     }
 }
 

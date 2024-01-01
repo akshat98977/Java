@@ -39,6 +39,6 @@ public class bitManipulation {
       int newNumber = notBitMask & n;
       System.out.println(newNumber);
     }
-
+    sc.close();
   }
 }

@@ -4,7 +4,7 @@ public class diamond {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = 5;
-    int m = 4;
+    
     //Upper Half
     for (int i = 1; i <= n; i++) {
       //Spaces
@@ -29,5 +29,6 @@ public class diamond {
       }
       System.out.println();
     }
+    sc.close();
   }
 }

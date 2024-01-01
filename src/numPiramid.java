@@ -4,7 +4,7 @@ public class numPiramid {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int n = 5;
-    int m = 4;
+    
     //My CODE     Outer Loop
 //    for (int i = 1; i <= n; i++) {
 //      //Inner Loop -> Spaces
@@ -41,5 +41,6 @@ public class numPiramid {
       }
       System.out.println();
     }
+    sc.close();
   }
 }

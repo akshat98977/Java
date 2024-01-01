@@ -27,6 +27,7 @@ public class gcd {
       }
     }
     System.out.println("GCD is "+ num2);
+    sc.close();
   }
 }
 

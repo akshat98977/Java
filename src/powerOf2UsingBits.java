@@ -22,5 +22,6 @@ public class powerOf2UsingBits {
     } else {
       System.out.println(number + " is not a Power of 2");
     }
+    sc.close();
   }
 }

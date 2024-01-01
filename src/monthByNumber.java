@@ -43,5 +43,6 @@ public class monthByNumber {
             default :
                 System.out.println("Invalid Number");
         }
+        sc.close();
     }
 }

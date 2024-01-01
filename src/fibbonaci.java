@@ -16,5 +16,6 @@ public class fibbonaci {
         term2 = temp;
       }
     }
+    sc.close();
   }
 }

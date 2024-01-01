@@ -22,5 +22,6 @@ public class avgOfThree {
       }
     }
     System.out.println("GCD is "+ gcd);
+    sc.close();
   }
 }

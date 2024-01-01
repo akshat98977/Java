@@ -16,5 +16,6 @@ public class linerSearch {
         System.out.println("x found at index : "+ i);
       }
     }
+    sc.close();
   }
 }

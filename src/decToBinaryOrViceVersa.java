@@ -40,5 +40,6 @@ public class decToBinaryOrViceVersa {
     } else {
       System.out.println("Invalid Input");
     }
+    sc.close();
   }
 }

@@ -14,5 +14,6 @@ public class floydTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

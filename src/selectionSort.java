@@ -28,5 +28,6 @@ public class selectionSort {
       numbers[i] = temp;
     }
     printArray(numbers);
+    sc.close();
   }
 }

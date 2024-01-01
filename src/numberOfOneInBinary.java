@@ -13,5 +13,6 @@ public class numberOfOneInBinary {
       }
     }
     System.out.println("Number of 1's : "+ oneCount);
+    sc.close();
   }
 }

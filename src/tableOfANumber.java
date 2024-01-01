@@ -11,5 +11,7 @@ public class tableOfANumber {
             System.out.print(" = ");
             System.out.println(num*(i+1));
         }
+        sc.close();
+        
     }
 }

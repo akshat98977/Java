@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class reverseString {
   public static void printRev(String str, int idx) {
@@ -28,6 +28,7 @@ public class reverseString {
     //By Recursions
     String str = "abcd";
     printRev(str , str.length()-1);
+    
   }
 }
 

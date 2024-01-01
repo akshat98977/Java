@@ -14,5 +14,6 @@ public class printingNamesInArray {
     for(int i = 0; i < names.length; i++) {
       System.out.println("Name  " + (i+1)+ " is : "+ names[i]);
     }
+    sc.close();
   }
 }

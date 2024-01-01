@@ -22,6 +22,6 @@ public class minAndMax {
     }
     System.out.println("Max Number is : "+ max);
     System.out.println("Min Number is : "+ min);
-
+    sc.close();
   }
 }

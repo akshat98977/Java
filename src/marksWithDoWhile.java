@@ -31,5 +31,6 @@ public class marksWithDoWhile {
             System.out.println("Want To Continue ? (yes(1) or no(0))");
             ans = sc.nextInt();
         } while (ans == 1);
+        sc.close();
     }
 }

@@ -20,5 +20,6 @@ public class checkAscendingOrder {
     } else {
       System.out.println("The Array is Not Sorted in Ascending Order.");
     }
+    sc.close();
   }
 }
