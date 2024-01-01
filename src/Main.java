@@ -43,7 +43,7 @@ public class Main {
           System.out.print(n);
           n++;
         }
-
+        ;
       }
       System.out.println();
     }
